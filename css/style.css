@@ -1,0 +1,131 @@
+/*******************************************************************************************************/
+/******************************************* Script begins *********************************************/
+/* margin : top, right, bottom, left; */
+
+html, body{ width: 100%; height: 100%; background-color: #003; color: #fff;}
+h1, h2, h3, h4, h5, h6, a, textarea, p, label, button,
+input[type="text"], input[type="password"], input[type="phone"], input[type="email"], input[type="submit"]{ 
+	font-family: 'Segoe UI Light', 'Segoe UI', Arial, Helvetica, sans-serif; 
+}
+.section { background-color: #fff; color: #003;}
+.sec1{ background-color: #ddd; color: #003;}
+
+/*******************************************************************************************************/
+
+.login{ margin: 100px 0px 0px 380px; border: 2px solid #fff; border-radius: 30px; padding: 20px; background-color: #fff;}
+.login form input, button[name="SignUp"]{ width: 343px; margin-top: 10px;}
+.login form input[type="text"]{ margin-top: 20px;}
+
+/*******************************************************************************************************/
+
+.sign-up{
+	padding: 30px; background-color: #fff; 
+	margin-top: 30px; border: 2px solid #fff;
+	border-radius: 30px; 
+	position: relative; left: 380px; top: 50px;
+}
+.sign-up label{ color: #000;}
+.sign-up form input{ max-width: 400px;}
+.sign-up form input[type="submit"], form button[name="btnLogin"]{ color: #000; width: 325px; color: white;}
+
+/*******************************************************************************************************/
+
+.logout{ 
+	float: right; background: transparent; 
+	color: white; border: 2px solid #fff; 
+	border-radius: 10px;
+	position: relative;
+	top: 15px;
+	left: 640px;
+}
+.logout:hover, .logout:active, .logout:focus{ color: #fff; outline: 0; background-color: transparent;}
+
+/*******************************************************************************************************/
+header ul li{ display: inline-block;}
+header .listof{ display: inline-block; padding: 0 10px 0 10px;}
+header .listof li a:hover{ background: transparent; color: #337ab7;}
+
+#username{ font-size: 30px; text-decoration: none; color: #ddd; position: relative; top: 5px;}
+.account{ background-color: #ddd; border: 2px solid #fff; border-radius: 10px; width: 1000px; height: 450px; padding: 20px;}
+.account img{ border-radius: 300px; border: 2px solid #fff; position: relative; right: 100px; bottom: 15px;}
+
+.profile{ padding: 20px; padding-left: 60px;}
+.profile button{ position: relative; left: 410px; bottom: 80px;}
+
+.update-info form input{ width: 550px; margin-left: 10px;}
+
+.info{ display: inline-block; margin-left: 30px;}
+.info h2{ display: inline;}
+.info h1{ color: #003;}
+.info span, .info label{ background-color: #337ab7; color: white; border-radius: 10px; padding: 3px 2px;}
+.info label{ padding: 6px 0px;}
+
+#accinfo{ color: #fff; padding-left: 60px;}
+#user-image{ max-width: 350px; max-height: 350px; border: 15px solid #003;}
+#imgsm{ max-width: 50px; max-height: 50px; margin-left: 10px;}
+
+section button[name="home"]{ 
+	float: right; color: #fff; border: 2px solid #fff; border-radius: 10px;
+	position: relative; bottom: 50px; right: 110px; width: 100px; background-color: transparent;
+}
+section button[name="home"]:hover,
+section button[name="home"]:active{ 
+	color: #fff; border-color: #fff;
+	background-color: transparent;
+}
+section button[name="home"]:focus{ outline: 0px;}
+
+/* start of section price table */
+.price_table h1{ text-align: left;}
+.price_table .price_box a{ background: transparent; margin-bottom: 5px;}
+.price_table .price_box {background:#003; padding: 10px; border:1px solid #DDD; margin-bottom: 15px; margin-right: 30px; border-radius: 15px;}
+.price_table .price_box h2 {margin:5px 0 15px; }
+.price_table .price_box p{
+	font-size: 35px; font-weight: bold; color:#666; width: 100px; height: 100px; 
+	background: #F3F3F3; border-radius: 50%; line-height: 100px;
+	-webkit-transtion-duration:0.7s;
+	-moz-transtion-duration:0.7s;
+	-o-transtion-duration:0.7s;
+	transtion-duration:0.7s;
+}
+.price_table .price_box ul {line-height: 250%; font-size: 15px;}
+.price_table .price_box ul li{ color: #fff;}
+.price_table { padding-top: 40px; padding-bottom: 40px;}
+/* End of section price table */
+
+/* start of the footer */
+
+footer .foo{ padding: 10px; text-align: center; background-color: #003; color: #fff;}
+footer .foo span{ background-color: #D12; border-radius: 10px; padding: 3px;} 
+
+/* end of the foooter */
+
+/*******************************************************************************************************/
+/********************************************* About ***************************************************/
+/*******************************************************************************************************/
+
+#about{ background-color: #ddd;}
+#about-image{ border: 20px solid #003;}
+.about_image{ background-color: #003; border-radius: 250px 0px 0px 250px;}
+/*.about-parag*/
+
+/*******************************************************************************************************/
+/******************************************* Contact Us ************************************************/
+/*******************************************************************************************************/
+
+.contact{ padding: 20px;}
+.contact form { border: 2px solid #003; padding: 20px; border-radius: 20px; text-align: center; width: 500px; margin: 0 auto; background-color: #003;}
+.contact form input,.contact form textarea{ width: 434px;}
+.contact form textarea[name="message"]{ resize: none;}
+
+/*******************************************************************************************************/
+/********************************************* Terms ***************************************************/
+/*******************************************************************************************************/
+
+.terms{ padding:20px;}
+.terms span{ color: red;}
+.terms label, .terms span{ font-size: 2em;}
+.terms h3{ display: inline;}
+.terms ul{ margin-left: 100px; background-color: #003; color: #fff; padding: 10px; border-radius: 10px; max-width: 860px;}
+
+/******************************************* Script End ************************************************/
